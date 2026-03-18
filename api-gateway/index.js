@@ -32,6 +32,7 @@ app.use(
 );
 
 console.log("HELLO THIS IS FROM MAIN GATEWAY PAGE!");
+console.log("HELLO THIS IS FROM MAIN GATEWAY PAGE 2!");
 
 app.listen(PORT, () => {
   console.log(
