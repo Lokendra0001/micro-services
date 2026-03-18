@@ -31,6 +31,8 @@ app.use(
   }),
 );
 
+console.log("HELLO THIS IS FROM MAIN GATEWAY PAGE!");
+
 app.listen(PORT, () => {
   console.log(
     `[API Gateway] Main Gateway is running on http://localhost:${PORT}`,
